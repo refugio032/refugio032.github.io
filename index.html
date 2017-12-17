@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Asociacion Refugio 032</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Monoton|Press+Start+2P" rel="stylesheet"> 
+    </head>
+    <body>
+        <div id="principal">
+        <h1>Asociacion Refugio 032</h1>
+        <button onclick="roll()" id="damn">Aceptar Mision?</button>
+        </div>
+        <script>
+            function roll(){
+            var y = Math.floor(Math.random()*500);
+            document.getElementById("damn").innerHTML=("El numero ganador es :"+y);
+            }
+        </script>
+    </body>
+</html>

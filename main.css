@@ -1,0 +1,41 @@
+body{
+    background-image:url("fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: 130%
+}
+#principal{
+    display: inline-block;
+    position: absolute;
+    left:14%;
+    top:15%;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin:auto;
+    padding: 200px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+div h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Monoton';
+    background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button{
+    padding: 10px;
+    background: linear-gradient(rgb(38, 204, 226),rgb(243, 23, 214),rgb(146, 5, 127));
+    border-color: black;
+    border-radius: 10px;
+    border-color: rgb(38, 204, 226);
+    padding: 30px;
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Press Start 2P'
+}

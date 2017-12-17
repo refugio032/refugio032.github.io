@@ -1,7 +1,8 @@
 body{
     background-image:url("fondo.jpeg");
     background-repeat: no-repeat;
-    background-size: 130%
+    background-size: 200%;
+    background-attachment: fixed;
 }
 #principal{
     display: inline-block;
@@ -37,5 +38,6 @@ button{
     padding: 30px;
     width: 600px;
     font-size: 20px;
-    font-family: 'Press Start 2P'
+    font-family: 'Press Start 2P';
+    color: black;
 }

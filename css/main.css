@@ -1,5 +1,5 @@
 body{
-    background-image:url("fondo.jpeg");
+    background-image:url("/css/fondo.jpeg");
     background-repeat: no-repeat;
     background-size: 130%
 }

@@ -7,7 +7,7 @@ body{
 #principal{
     display: inline-block;
     position: absolute;
-    left:14%;
+    left:16%;
     top:6%;
     width: 50%;
     text-align: center;
@@ -16,7 +16,7 @@ body{
     border-style: solid;
     border-width: 5px;
     margin:auto;
-    padding:10%;
+    padding:9%;
     border-radius: 20px;
     opacity: 0.9;
 }

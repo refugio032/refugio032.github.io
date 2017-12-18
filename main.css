@@ -46,7 +46,7 @@ button{
 }
 footer p{
     position: absolute;
-    bottom: 8px;
+    bottom: 6px;
     right: 16px;
-    font-size: 18px;
+    font-size: 10px;
 }

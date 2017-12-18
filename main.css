@@ -45,8 +45,9 @@ button{
     color: black;
 }
 footer p{
+    display: inline-block;
     position: absolute;
     bottom: 6px;
     right: 16px;
-    font-size: 5vw;
+    font-size: 0.5vw;
 }

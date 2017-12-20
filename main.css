@@ -19,6 +19,7 @@ body{
     opacity: 0.9;
     margin-top: 2vw;
     height: 40vw;
+    float: none;
 }
 #principal h1{
     display:block;
@@ -83,6 +84,8 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    visibility: hidden;
+
 }
 button:hover{
     background: linear-gradient(rgb(146, 5, 127),rgb(243, 23, 214),rgb(38, 204, 226));
@@ -95,4 +98,38 @@ li>p{
     -webkit-text-fill-color: transparent;
     float: right;
     font-size: 10vw;
+}
+#izquierda{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 1%;
+    text-align: justify;
+    position: relative;
+    margin-top: -40vw;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    height: 40vw;
+    border-radius: 20px;
+}
+#izquierda p{
+    margin: 5%;
+}
+#derecha{
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: justify;
+    position: relative;
+    margin-top: -40vw;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    height: 40vw;
+    border-radius: 20px;
+    margin-right: 1%;
+}
+#derecha p{
+    margin: 5%;
 }

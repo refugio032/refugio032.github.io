@@ -6,7 +6,7 @@ body{
 }
 #principal{
     display: inline-block;
-    position: absolute;
+    position: relative;
     left:17%;
     top:10%;
     width: 50%;
@@ -19,6 +19,7 @@ body{
     padding:8%;
     border-radius: 20px;
     opacity: 0.9;
+    margin-top: 0.5vw;
 }
 div h1{
     display:inline-block;
@@ -51,4 +52,43 @@ footer p{
     right: 16px;
     font-size: 0.5vw;
     color: white;
+}
+nav{
+    background:linear-gradient(white,gray,black);
+    background-size: 100vw;
+    background-position: 50%;
+    opacity: 0.9;
+    border-radius: 9px;
+    background-repeat: no-repeat;
+    padding: 0.05vw;
+}
+nav>a{
+    display: inline-block;
+    background:linear-gradient(white,gray,black);
+    padding: 1.8vw;
+    width: 6vw;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Press Start 2P';
+    font-size: 0.6vw;
+    margin-left: 0.3vw;
+    position: relative;
+}
+
+nav>a:hover{
+    background: linear-gradient(rgb(38, 204, 226),rgb(243, 23, 214),rgb(146, 5, 127));
+}
+button:hover{
+    background: linear-gradient(rgb(146, 5, 127),rgb(243, 23, 214),rgb(38, 204, 226));
+}
+nav>h1{
+    margin-left: 0.5vw;
+    display: inline-block;
+    font-family: 'Monoton';
+     background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }

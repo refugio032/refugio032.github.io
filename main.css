@@ -49,8 +49,8 @@ button{
 footer p{
     display: inline-block;
     position: absolute;
-    bottom: 6px;
-    right: 16px;
+    bottom: 0.5px;
+    right: 1vw;
     font-size: 0.5vw;
     color: white;
 }
@@ -230,4 +230,35 @@ li>p{
     font-family: 'Press Start 2P';
     color: black;
     margin-left: 5vw;
+}
+#principal2{
+    display: block;
+    position: relative;
+    width: 95%;
+    text-align: center;
+    font-size: 1vw;
+    background-color: black;
+    border-style: solid;
+    margin:auto;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin-top: 2vw;
+    height: 43vw;
+    float: none;
+}
+#principal2 h1{
+    display:block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    font-family: 'Monoton';
+    background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    margin-top: 4vw;
+}
+
+#principal2 blockquote{
+    color: white;
 }

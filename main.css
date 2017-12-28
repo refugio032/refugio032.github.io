@@ -115,11 +115,22 @@ li>p{
 }
 #izquierda p{
     margin: 5%;
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+#izquierda h1{
+    text-align: center;
+    font-family: 'Monoton';
+    background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
 }
 #derecha{
     display: block;
     float: right;
     width: 20%;
+    margin-right: 1%;
     text-align: justify;
     position: relative;
     margin-top: -40vw;
@@ -128,11 +139,21 @@ li>p{
     opacity: 0.9;
     height: 40vw;
     border-radius: 20px;
-    margin-right: 1%;
 }
 #derecha p{
     margin: 5%;
+    margin-top: 1vw;
+    font-size: 1vw;
 }
+#derecha h1{
+    text-align: center;
+    font-family: 'Monoton';
+    background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2vw;
+}
+
 #principal1{
     display: block;
     position: relative;
@@ -166,6 +187,7 @@ li>p{
 }
 #principal1 blockquote{
     color: white;
+    font-size: 1vw;
 }
 #izquierda1{
     display: block;
@@ -184,6 +206,7 @@ li>p{
 #izquierda1 p{
     margin: 5%;
     margin-top: 1vw;
+    font-size: 1vw;
 }
 #izquierda1 h1{
     text-align: center;
@@ -191,6 +214,7 @@ li>p{
     background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2vw;
 }
 
 #derecha1{
@@ -210,6 +234,7 @@ li>p{
 #derecha1 p{
     margin: 5%;
     margin-top: 1vw;
+    font-size: 1vw;
 }
 #derecha1 h1{
     text-align: center;
@@ -217,6 +242,7 @@ li>p{
     background: -webkit-linear-gradient(rgb(38, 204, 226), rgb(243, 23, 214),rgb(146, 5, 127));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2vw;
 }
 #but1{
     display: inline-block;

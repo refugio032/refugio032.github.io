@@ -291,3 +291,7 @@ li>p{
 #stream{
     margin-top: 3vw;
 }
+iframe{
+    width: 95%;
+    height: 35vw;
+}

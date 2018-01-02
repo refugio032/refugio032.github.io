@@ -28,8 +28,20 @@
     </nav>
     <div id="principal">
         <div id="stream">
-            <iframe width="1000vw" height="600vw" src="https://youtube.com/embed/live_stream?channel=UCxhcg_IE1d7XPe-zF4RqPGw" ; frameborder="0"
-                allowfullscreen></iframe>
+            <!-- Add a placeholder for the Twitch embed -->
+            <div id="twitch-embed"></div>
+
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: 1024,
+                    height: 768,
+                    channel: "refugio032"
+                });
+            </script>
         </div>
     </div>
     <div id="izquierda">
@@ -38,7 +50,11 @@
     </div>
     <div id="derecha">
         <h1>Informacion</h1>
-        <p style="text-align:center;">Se sorteara una cesta con contenido friki utilizando un generador de numeros aleatorio el cual podeis comprobar el codigo perfectamente para asegurar su vericidad. Si el ganador no aparece en 2 dias se pasara al siguiente numero. Si resultais ser ganadores mandadnos un correo a: <span style="font-weight:bold;text-decoration:underline;">asociacionrefugio032@gmail.com</span></p>
+        <p style="text-align:center;">Se sorteara una cesta con contenido friki utilizando un generador de numeros aleatorio el cual podeis comprobar el
+            codigo perfectamente para asegurar su vericidad. Si el ganador no aparece en 2 dias se pasara al siguiente numero.
+            Si resultais ser ganadores mandadnos un correo a:
+            <span style="font-weight:bold;text-decoration:underline;">asociacionrefugio032@gmail.com</span>
+        </p>
     </div>
     <footer>
         <p>Designed by Christian Mochales Martín</p>

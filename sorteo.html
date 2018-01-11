@@ -33,6 +33,7 @@
     <script>
         function roll() {
             var y = Math.floor(Math.random() * 401) + 1;
+            var formato = new Intl.NumberFormat('en-IN', { minimumIntegerDigits: 3 }).format(y);
             document.getElementById("damn").innerHTML = ("El numero ganador es :" + y);
         }
     </script>

@@ -31,10 +31,28 @@
             <p>Bla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla bla</p>
         </div>
     <script>
+        function zfill(number, width) {
+            var numberOutput = Math.abs(number); /* Valor absoluto del número */
+            var length = number.toString().length; /* Largo del número */ 
+            var zero = "0"; /* String de cero */  
+    
+        if (width <= length) {
+            if (number < 0) {
+                return ("-" + numberOutput.toString()); 
+            } else {
+                return numberOutput.toString(); 
+            }
+        } else {
+            if (number < 0) {
+                return ("-" + (zero.repeat(width - length)) + numberOutput.toString()); 
+            } else {
+                return ((zero.repeat(width - length)) + numberOutput.toString()); 
+            }
+        }
+    }
         function roll() {
             var y = Math.floor(Math.random() * 401) + 1;
-            var formato = new Intl.NumberFormat('en-IN', { minimumIntegerDigits: 3 }).format(y);
-            document.getElementById("damn").innerHTML = ("El numero ganador es :" + y);
+            document.getElementById("damn").innerHTML = ("El numero ganador es :" + zfill(y,3));
         }
     </script>
     <footer>
